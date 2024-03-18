@@ -1,0 +1,45 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+img{
+    max-width: 100%;
+}
+
+/* Estilos para la clase "error" */
+.error {
+    color: #ff0000; /* Color de texto rojo */
+    font-weight: bold; /* Texto en negrita */
+    border: 1px solid #ff0000; /* Borde rojo */
+    padding: 5px 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Margen inferior */
+    border-radius: 5px; /* Bordes redondeados */
+}
+
+
+.imagen {
+
+    margin: 0 0 20px 250px;
+}
+
+
+#resultado {
+    /* Estilos personalizados */
+    background-color: lightgray;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}

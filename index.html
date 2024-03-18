@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <title>CryptoBros</title>
+   
+</head>
+<body>
+
+<div class="container text-center">
+    <div class="row">
+        <div class="one-half column">
+            <img class="imagen" src="./img/Logo Cryptos.png" alt="">
+        </div>
+    </div>
+
+    <form action="" id="formulario">
+        <div class="row">
+            <label for="">Convertidor a Cryptos</label>
+            <select class="u-full-width" name="moneda" id="moneda">
+                <option value="">Elige Tu Moneda</option>
+                <option value="USD">Dolar</option>
+                <option value="MXN">Pesos</option>
+                <option value="GBP">Libra</option>
+                <option value="EUR">Euro</option>
+            </select>
+        </div>
+
+        <div class="row">
+            <label for="">Elige tu criptomoneda</label>
+            <select class="u-full-width" name="criptomonedas" id="criptomonedas">
+                <option value="" disabled selected>Elige tu criptomoneda</option>
+            </select>
+        </div>
+
+        <input type="submit"  value="cotizar" class="button-primary">
+        
+    </form>
+
+    <div id="resultados"></div>
+</div>
+
+<script src="app.js"></script>
+</body>
+</html>
